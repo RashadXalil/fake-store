@@ -29,7 +29,7 @@ const List = () => {
                 {
                     filteredData.map((item, index) => {
                         return (
-                            <div className="col-3">
+                            <div className="col-lg-3 col-md-6 col-sm-12">
                                 <Item item={item} key={index} />
                             </div>
                         )
